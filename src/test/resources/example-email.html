@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Email HTML</title>
+    <style>
+        body {
+          font-family: sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f4f4f4;
+        }
+        .container {
+          width: 80%;
+          margin: 20px auto;
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          color: #555;
+        }
+        h1 {
+          color: #333;
+        }
+        p,span {
+          line-height: 1.6;
+          color: #555;
+        }
+
+        hr {
+          border: none;
+          border-bottom: 1px solid #dddddd;
+          margin: 20px 0;
+        }
+        ul {
+          list-style-type: disc;
+          margin-left: 20px;
+        }
+
+        table {
+          font-family: arial, sans-serif;border-collapse: collapse;
+          width:100%;
+          border-collapse: collapse;
+          margin-bottom: 20px;
+        }
+        th,td {
+          border: 1px solid #dddddd;
+          padding: 3px;
+          text-align: left;
+        }
+        th {
+          background-color: #f2f2f2;
+          font-weight: bold;
+          text-align: center;
+        }
+        tr:nth-child(even) {
+          background-color: #f9f9f9;
+        }
+        tr:hover {
+          background-color: #ddd;
+        }
+
+
+
+        .button {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #007bff;
+          color: #fff;
+          text-decoration: none;
+          border-radius: 5px;
+        }
+        .code {
+          font-family: monospace;
+          background-color: #f4f4f4;
+          padding: 2px 4px;
+          border-radius: 4px;
+        }
+        .image {
+          max-width: 45px;
+          height: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Test e-mail with html</h1>
+    <div>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor metus eget erat dapibus, a facilisis
+            massa
+            bibendum. Pellentesque quis auctor purus. Nulla luctus, sapien vitae suscipit lacinia, urna quam pulvinar
+            arcu,
+            ultrices vestibulum eros tellus sit amet lectus. Integer pretium, metus nec ornare aliquam, nulla dolor
+            posuere
+            tellus, id efficitur lacus enim nec odio. Vestibulum elementum eros metus. Aliquam erat volutpat. Duis
+            libero
+            sapien, tincidunt eget tincidunt sed, vestibulum et leo.</p>
+
+        <p>Sed non est ut risus interdum lobortis id a arcu. Class aptent taciti sociosqu ad litora torquent per conubia
+            nostra, per inceptos himenaeos. Proin turpis magna, aliquam ac luctus non, hendrerit in urna. Donec ligula
+            ante,
+            vehicula id felis vel, sagittis egestas nisi. Vestibulum et aliquam erat. Nullam vitae efficitur lacus.
+            Vivamus
+            ornare commodo velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+            curae;
+            Fusce non arcu enim. Phasellus molestie, nulla at imperdiet ullamcorper, odio leo maximus tellus, in
+            pulvinar
+            nulla tellus nec est.</p>
+
+        <p>
+            Link:<a href="https://www.example.com" target="_blank">https://www.example.com</a>
+            <br/>
+            Image: <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+                             alt="Imagem de Exemplo" class="image">
+            <br/>
+            Button<a href="https://www.example.com" class="button">Clique Aqui</a>
+        </p>
+    </div>
+    <hr/>
+    <div>
+        <h2>The typography elements</h2>
+        <p>You can use the mark tag to
+            <mark>highlight</mark>
+            text.
+        </p>
+        <p>
+            <del>This line of text is meant to be treated as deleted text.</del>
+        </p>
+        <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+        <p>
+            <ins>This line of text is meant to be treated as an addition to the document.</ins>
+        </p>
+        <p><u>This line of text will render as underlined.</u></p>
+        <p><small>This line of text is meant to be treated as fine print.</small></p>
+        <p><strong>This line rendered as bold text.</strong></p>
+        <p><em>This line rendered as italicized text.</em></p>
+    </div>
+    <hr/>
+    <div>
+        <h2>The <span class="code">&lt;ol&gt;</span> HTML element represents an ordered list of items — typically
+            rendered as a numbered list.</h2>
+        <ol>
+            <li>Value 1</li>
+            <li>Value 2</li>
+            <li>Value 3</li>
+        </ol>
+    </div>
+    <hr/>
+    <div>
+        <h2>The <span class="code">&lt;ul&gt;</span> HTML element represents an unordered list of items, typically
+            rendered as a bulleted list.</h2>
+        <ul>
+            <li>Value 1</li>
+            <li>Value 2</li>
+            <li>Value 3</li>
+        </ul>
+    </div>
+    <hr/>
+    <div>
+        <h2>The <span class="code">&lt;table&gt;</span> HTML element example:</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Head 1</th>
+                <th>Head 2</th>
+                <th>Head 3</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>row 1 col 1</td>
+                <td>row 1 col 2</td>
+                <td>row 1 col 3</td>
+            </tr>
+            <tr>
+                <td>row 2 col 1</td>
+                <td>row 2 col 2</td>
+                <td>row 2 col 3</td>
+            </tr>
+            <tr>
+                <td>row 3 col 1</td>
+                <td>row 3 col 2</td>
+                <td>row 3 col 3</td>
+            </tr>
+            <tr>
+                <td>row 4 col 1</td>
+                <td>row 4 col 2</td>
+                <td>row 4 col 3</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+// This file is an example text file that contains a variety of characters.
+// It includes letters, numbers, punctuation, and special characters.
+// The content is designed to test encoding and decoding of text files.
+// The file should be saved in UTF-8 encoding to ensure proper character representation.
+
+ !"#$%&'()*+,-./0123456789:;<=>?
+@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+`abcdefghijklmnopqrstuvwxyz{|}~¡
+¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂ
+ÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâ
+ãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ

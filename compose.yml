@@ -1,0 +1,9 @@
+services:
+
+  smtp:
+    image: maildev/maildev:2.2.1
+    environment:
+      TZ: UTC
+    ports:
+      - "1025:1025"  # SMTP port
+      - "1080:1080"  # Web UI port
