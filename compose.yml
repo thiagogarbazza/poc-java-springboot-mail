@@ -1,9 +1,15 @@
 services:
 
-  smtp:
-    image: maildev/maildev:2.2.1
+  mailpit:
+    image: axllent/mailpit:latest
     environment:
-      TZ: UTC
+      - TZ=UTC
+      - MP_MAX_AGE=7d
+    volumes:
+      - mailpit-data:/data
     ports:
-      - "1025:1025"  # SMTP port
-      - "1080:1080"  # Web UI port
+      - "1025:1025" # SMTP port
+      - "8025:8025" # Web UI port
+
+volumes:
+  mailpit-data:
