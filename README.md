@@ -9,7 +9,7 @@ It showcases the integration of Spring Boot with JavaMailSender to send simple t
 - Spring Boot 3.x
 - Spring Mail (JavaMailSender)
 - Maven
-- [MailDev](https://maildev.github.io/maildev/) is an SMTP server & web interface for viewing and testing emails during development.
+- [Mailpit](https://mailpit.github.io/mailpit/) is an SMTP server & web interface for viewing and testing emails during development.
 
 ## 📦 Features
 
